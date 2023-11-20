@@ -1,24 +1,31 @@
-import logo from './logo.svg';
+import { useState } from "react";
+import {Routes,Route} from "react-router-dom"
+import {Home,About,Projects,Skills} from "./pages"
+import Navbar from "./components/Navbar";
+import { AppContext } from "./context/AppContext";
 import './App.css';
 
 function App() {
+  const [nightMode,setNightMode]=useState(true) 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <AppContext.Provider value={{nightMode,setNightMode}}>
+
+  
+    <div className="flex flex-col">
+      <Navbar />
+      <div className={`${nightMode?"bg-[#000]":"bg-white"} p-5 mt-[6vh] min-h-[150vh] ${nightMode?"text-white":"text-black"}`}>
+      <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route  path="/about" element={<About />}/>
+          <Route  path="/skills" element={<Skills />}/>
+          <Route  path="/projects" element={<Projects />}/>
+      </Routes>
+
+      </div>
+      
     </div>
+    </AppContext.Provider> 
+  
   );
 }
 
