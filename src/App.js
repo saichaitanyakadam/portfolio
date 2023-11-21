@@ -16,9 +16,9 @@ function App() {
       <div className={`${nightMode?"bg-[#000]":"bg-white"} p-5 mt-[6vh] min-h-[94vh] ${nightMode?"text-white":"text-black"} flex justify-center items-center overflow-x-hidden overflow-y-auto`}>
       <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route  path="/about" element={<About />}/>
-          <Route  path="/skills" element={<Skills />}/>
-          <Route  path="/projects" element={<Projects />}/>
+          <Route exact path="/about" element={<About />}/>
+          <Route exact path="/skills" element={<Skills />}/>
+          <Route exact path="/projects" element={<Projects />}/>
       </Routes>
 
       </div>
