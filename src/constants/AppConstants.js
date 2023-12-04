@@ -1,3 +1,7 @@
+import covidDahsboard from "../assets/covidDashboard.png";
+import moneyMatters from "../assets/moneyMatters.png";
+import rpsProject from "../assets/rpsproject.png";
+
 export const PersonalDetails = [
   {
     content: "Sai Chaitanya",
@@ -167,5 +171,31 @@ export const EducationDetails = [
     to: 2016,
     score: 9.5,
     overallScore: 10.0,
+  },
+];
+
+export const ProjectsData = [
+  {
+    id: 1,
+    title: "Covid-19 Dashboard",
+    skills: ["react.js", "html", "css", "javascript"],
+    link: "https://cdkadam.ccbp.tech/",
+    credentials: "",
+    img: covidDahsboard,
+  },
+  {
+    id: 2,
+    title: "Money-Matters",
+    skills: ["react.js", "bootstarp", "html", "css", "javaScipt"],
+    link: "https://mmkadam.ccbp.tech/",
+    credentials: { username: "admin@gmail.com", password: "Admin@123" },
+    img: moneyMatters,
+  },
+  {
+    id: 3,
+    title: "Rock-Paper-Sciccors",
+    skills: ["react.js", "html", "css", "styledComponents", "javaScipt"],
+    link: "https://rpskadam.ccbp.tech/",
+    img: rpsProject,
   },
 ];
