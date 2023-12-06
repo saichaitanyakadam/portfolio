@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <>
       <header
-        className={`h-[6vh] fixed bg-[#4a4948] w-full flex items-center px-5 text-white `}
+        className={`h-[6vh] fixed bg-[#4a4948] w-full flex items-center px-5 text-white z-10`}
       >
         <nav className="flex justify-between items-center w-full h-full">
           <Link to="/">

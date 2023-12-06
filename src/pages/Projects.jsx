@@ -37,7 +37,7 @@ const Projects = () => {
                 {project.skills.join(", ")}
               </p>
               {project.credentials && (
-                <div>
+                <div className="pr-5">
                   <p className="font-bold">Credentials:</p>
                   <div className="flex items-center">
                     <span className="font-semibold">Username: </span>
