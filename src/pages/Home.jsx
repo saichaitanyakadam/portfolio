@@ -12,14 +12,14 @@ const Home = () => {
     >
       <img
         src={Profile}
-        className="w-[85%] lg:w-[30%] hover:scale-110 shadow-slate-300 shadow-lg rounded-lg"
+        className="w-[85%] lg:w-[30%] hover:scale-105 shadow-slate-300 shadow-lg rounded-lg"
         alt="profile"
       />
       <div className="flex flex-col gap-3">
         <h2 className="text-3xl font-[700] font-serif">Sai Chaitanya Kadam</h2>
         <p className="text-xl font-[200]">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
-          blanditiis?
+          Fresher looking for opportunity to start career as Full-Stack
+          developer.
         </p>
       </div>
     </div>

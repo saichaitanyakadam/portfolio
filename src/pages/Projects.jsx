@@ -23,9 +23,9 @@ const Projects = () => {
             <img
               src={project.img}
               alt="project"
-              className="opacity-40  rounded-lg"
+              className="opacity-40  rounded-lg h-full"
             />
-            <div className="absolute top-5 left-10 text-[#444]">
+            <div className="absolute top-5 left-10 text-[#000]">
               <a href={project.link} target="_blank" rel="noopener noreferrer">
                 <div className="font-bold mb-2 flex">
                   <span className="no-underline">Title: </span>
@@ -44,7 +44,7 @@ const Projects = () => {
                     <p>{project.credentials.username}</p>
 
                     <span
-                      className="ml-auto"
+                      className="ml-auto cursor-pointer"
                       onClick={() => {
                         navigator.clipboard.writeText(
                           project.credentials.username
@@ -57,10 +57,10 @@ const Projects = () => {
                   </div>
                   <div className="flex items-center">
                     <span className="font-semibold">Password: </span>
-                    <p>{project.credentials.password}</p>
+                    <p>{"***********"}</p>
 
                     <span
-                      className="ml-auto"
+                      className="ml-auto cursor-pointer"
                       onClick={() => {
                         navigator.clipboard.writeText(
                           project.credentials.password

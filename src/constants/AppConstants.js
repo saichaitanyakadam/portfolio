@@ -1,6 +1,7 @@
 import covidDahsboard from "../assets/covidDashboard.png";
 import moneyMatters from "../assets/moneyMatters.png";
 import rpsProject from "../assets/rpsproject.png";
+import jobbyProject from "../assets/jobbyProject.png";
 
 export const PersonalDetails = [
   {
@@ -197,5 +198,13 @@ export const ProjectsData = [
     skills: ["react.js", "html", "css", "styledComponents", "javaScipt"],
     link: "https://rpskadam.ccbp.tech/",
     img: rpsProject,
+  },
+  {
+    id: 4,
+    title: "Jobby App",
+    skills: ["react.js", "html", "css", "javaScript", "styledComponents"],
+    link: "https://jobby.ccbp.tech/",
+    img: jobbyProject,
+    credentials: { username: "rahul", password: "rahul@2021" },
   },
 ];
