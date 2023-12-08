@@ -2,6 +2,7 @@ import covidDahsboard from "../assets/covidDashboard.png";
 import moneyMatters from "../assets/moneyMatters.png";
 import rpsProject from "../assets/rpsproject.png";
 import jobbyProject from "../assets/jobbyProject.png";
+import nxtTrendz from "../assets/nxtTrendz.png";
 
 export const PersonalDetails = [
   {
@@ -187,7 +188,14 @@ export const ProjectsData = [
   {
     id: 2,
     title: "Money-Matters",
-    skills: ["react.js", "bootstarp", "html", "css", "javaScipt"],
+    skills: [
+      "react.js",
+      "bootstarp",
+      "html",
+      "css",
+      "javaScipt",
+      "protected routing",
+    ],
     link: "https://mmkadam.ccbp.tech/",
     credentials: { username: "admin@gmail.com", password: "Admin@123" },
     img: moneyMatters,
@@ -202,9 +210,31 @@ export const ProjectsData = [
   {
     id: 4,
     title: "Jobby App",
-    skills: ["react.js", "html", "css", "javaScript", "styledComponents"],
+    skills: [
+      "react.js",
+      "html",
+      "css",
+      "javaScript",
+      "styledComponents",
+      "protected routing",
+    ],
     link: "https://jobby.ccbp.tech/",
     img: jobbyProject,
+    credentials: { username: "rahul", password: "rahul@2021" },
+  },
+  {
+    id: 5,
+    title: "Nxt Trendz",
+    skills: [
+      "react.js",
+      "html",
+      "css",
+      "javaScript",
+      "contextApi",
+      "protected routing",
+    ],
+    link: "https://nxt-trendz-kadam.netlify.app/",
+    img: nxtTrendz,
     credentials: { username: "rahul", password: "rahul@2021" },
   },
 ];
