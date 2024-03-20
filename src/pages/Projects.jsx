@@ -23,7 +23,7 @@ const Projects = () => {
             <img
               src={project.img}
               alt="project"
-              className="opacity-40  rounded-lg h-full"
+              className="opacity-20 rounded-lg h-full"
             />
             <div className="absolute top-5 left-10 text-[#000]">
               <a href={project.link} target="_blank" rel="noopener noreferrer">
@@ -32,7 +32,7 @@ const Projects = () => {
                   <p className="underline">{project.title}</p>
                 </div>
               </a>
-              <p>
+              <p className="font-semibold">
                 <span className="font-bold">Skills:</span>{" "}
                 {project.skills.join(", ")}
               </p>

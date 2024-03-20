@@ -47,12 +47,13 @@ export const technicalSkills = [
       "javascript",
       "react.js",
       "tailwindCss",
+      "next.js",
     ],
   },
   { label: "Backend", skills: ["python", "node.js", "express.js"] },
   {
     label: "Databases",
-    skills: ["sqlite"],
+    skills: ["sqlite", "MongoDB"],
   },
 ];
 
@@ -179,15 +180,7 @@ export const EducationDetails = [
 export const ProjectsData = [
   {
     id: 1,
-    title: "Covid-19 Dashboard",
-    skills: ["react.js", "html", "css", "javascript"],
-    link: "https://cdkadam.ccbp.tech/",
-    credentials: "",
-    img: covidDahsboard,
-  },
-  {
-    id: 2,
-    title: "Money-Matters",
+    title: "Money-Matters MERN-STACK Application",
     skills: [
       "react.js",
       "bootstarp",
@@ -195,11 +188,22 @@ export const ProjectsData = [
       "css",
       "javaScipt",
       "protected routing",
+      "node.js",
+      "express.js",
+      "mongoDB",
     ],
-    link: "https://mmkadam.ccbp.tech/",
-    credentials: { username: "admin@gmail.com", password: "Admin@123" },
+    link: "https://money-matters-chaitanya.netlify.app/",
     img: moneyMatters,
   },
+  {
+    id: 2,
+    title: "Covid-19 Dashboard",
+    skills: ["react.js", "html", "css", "javascript"],
+    link: "https://cdkadam.ccbp.tech/",
+    credentials: "",
+    img: covidDahsboard,
+  },
+
   {
     id: 3,
     title: "Rock-Paper-Sciccors",
